@@ -5,3 +5,4 @@ focal= 34
 t_px= 4.5
 solape= 40
 altura= 120
+numero lineas vuelo = 5
