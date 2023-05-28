@@ -141,7 +141,7 @@ class PlanificadorVueloDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
         vector_vuelo.crs = 'EPSG:25830'
 
         #guardamos el shapefile con el vuelo
-        ruta_salida = 'C:/Users/Jaume/Documents/Master/Programacion_open/Final/Planner_md/salida.shp'
+        ruta_salida = 'C:/Planificador/planvuelo.shp'
         vector_vuelo.to_file(ruta_salida)
 
         #añadimos el shapefile a nuestro proyecto de qgis
